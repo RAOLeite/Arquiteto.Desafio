@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="5.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Desafio.Lancamento.Application.Operacao.Contracts\Desafio.Lancamento.Application.Operacao.Contracts.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Application.Operacao\Desafio.Lancamento.Application.Operacao.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Domain.Operacao.Contracts\Desafio.Lancamento.Domain.Operacao.Contracts.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Domain.Operacao\Desafio.Lancamento.Domain.Operacao.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Infra.Core\Desafio.Lancamento.Infra.Core.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Infra.CrossCutting.IoC\Desafio.Lancamento.Infra.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Infra.Data\Desafio.Lancamento.Infra.Data.csproj" />
+  </ItemGroup>
+
+
+</Project>
+
+
+
+

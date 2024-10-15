@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Desafio.Lancamento.Application.Operacao.Contracts\Desafio.Lancamento.Application.Operacao.Contracts.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Domain.Operacao.Contracts\Desafio.Lancamento.Domain.Operacao.Contracts.csproj" />
+    <ProjectReference Include="..\Desafio.Lancamento.Domain.Operacao\Desafio.Lancamento.Domain.Operacao.csproj" />
+  </ItemGroup>
+
+</Project>
+
+
+
+
